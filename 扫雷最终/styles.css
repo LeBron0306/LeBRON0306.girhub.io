@@ -1,0 +1,128 @@
+body{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin: 0;
+    background-color:#dadd39ec;
+}
+#game{
+    width: 100vw;
+    height:100vh;
+
+
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    position: relative;
+    width: fit-content;
+    align-items:fit-content;
+}
+.banner{
+    margin-top: 20px;
+    font-size: 2em;
+    height: 1.5em;
+}
+.welcome button{
+    background-color: rgb(208, 255, 0);
+    color:rgb(17, 180, 245);
+    font-size: 2em;
+    text-align: center;
+    letter-spacing: 0.5em;
+    border-radius: 5px;
+
+
+
+}
+table {
+    
+} 
+td {
+    border:blueviolet 1px solid; 
+    width: 20px;
+    height: 20px;
+    background-color:rgb(61, 47, 255);
+    box-sizing: border-box;
+    position: relative;
+    padding:0;
+    -webkit-user-select:none ;
+    -moz-user-select: none;
+    text-align: center;
+    color:rgb(61, 47, 255);
+
+}
+
+  
+
+td > .cell{
+    position: absolute;
+    left: 0;
+    right: 0 ;
+    top: 0;
+    bottom: 0;
+    text-align: center;
+    color:rgb(61, 47, 255);
+      
+    
+}
+td>.cell.clear{
+    background-color: #ffffff;
+    color:green;
+}
+td>.cell.exploded{
+    background-color: red;
+    color: #999;
+}
+table.exploded,table.exploded td{
+    background-color: red;
+}
+.loser{
+    position: absolute;
+    background-color: greenyellow;
+    left: 0;
+    right: 0;
+    top: 0;
+    bottom: 0;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+
+}
+.winner{
+    position: absolute;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-color:red ;
+
+    text-align: center;
+    color:blanchedalmond;
+    width: 100%;
+    height: 100%;
+
+}
+.loser h3{
+    font-size: 3em;
+}
+.welcome{
+    display: flex;
+    flex-direction: column;
+
+}
+.welcome button{
+    margin: 20px;;
+}
+#over {color:red;
+    position: absolute;
+    font-size: 2em;
+    top: 100;
+text-align: center;
+
+
+
+}
+
+
+
+
+
